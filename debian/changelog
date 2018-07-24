@@ -1,0 +1,5 @@
+lua-ec25519 (0.5-1) stable; urgency=medium
+
+  * Initial version
+
+ -- Leandr Khaliullov <lhaliullov@ronte.io>  Mon, 23 Jul 2018 10:10:10 +0400

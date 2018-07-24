@@ -1,0 +1,11 @@
+5.1-ec25519/
+*.buildinfo
+*.changes
+*.deb
+*.o
+*.rock
+*.so
+*.swp
+*.swo
+*~
+reindex
