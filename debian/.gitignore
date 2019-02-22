@@ -1,0 +1,8 @@
+files
+lua-ec25519/
+lua-ec25519-dev.install
+lua_versions
+stamp-*
+trash
+*.substvars
+*.log

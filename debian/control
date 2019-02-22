@@ -1,0 +1,18 @@
+Source: lua-ec25519
+Maintainer: Leandr Khaliullov <lhaliullov@ronte.io>
+Build-Depends: debhelper (>= 9), dh-lua
+Standards-Version: 3.9.3
+Section: universe/interpreters
+Priority: optional
+Homepage: https://github.com/ssmmxx/lua-ec25519
+VCS-Git: https://github.com/ssmmxx/lua-ec25519.git
+VCS-Browser: https://github.com/ssmmxx/lua-ec25519
+
+Package: lua-ec25519
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Provides: lua-ec25519
+XB-Lua-Versions: ${lua:Versions}
+Description: curve25519 keypairs generator

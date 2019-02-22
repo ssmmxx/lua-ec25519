@@ -1,0 +1,3 @@
+debian/lua-ec25519-dev.install
+debian/lua_versions
+debian/trash

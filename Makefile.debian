@@ -1,0 +1,8 @@
+.PHONY: deps
+deps:
+	apt-get install -y luarocks curl git debhelper dh-lua pkg-config locales
+	locale-gen en_US.UTF-8
+	update-locale
+	/bin/sed -i -e \
+	    's/-rpath $$(LUA_LPATH) -version-info $$(VERSION_INFO) -Wl,--no-add-needed \\/-rpath $$(shell pwd)\/$$(LUA_LPATH) -version-info $$(VERSION_INFO) -Wl,--no-add-needed \\/' \
+	/usr/share/dh-lua/make/dh-lua.Makefile.single
